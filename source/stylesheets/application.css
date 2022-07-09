@@ -1,0 +1,25 @@
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container_map {
+  position: relative;
+}
+
+#map {   
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; 
+}
+
+.dialogue-background {
+  transition: opacity 0.5s ease-in-out;
+  background: rgba(157, 241, 224, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(157, 241, 224, 0.82);
+}
